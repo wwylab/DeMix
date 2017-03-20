@@ -1,0 +1,8 @@
+useDynLib(DeMix)
+export(DeMix.Model)
+export(DeMix.Normalization)
+export(DeMix.Filter)
+export(DeMixT)
+export(DeMixT.S1)
+export(DeMixT.S2)
+export(DeMixT.Kernel)
