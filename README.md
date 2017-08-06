@@ -7,3 +7,11 @@ Step 1: The probes are selected with small standard deviations of the log2- tran
 ones with the largest standard deviations are prepared for the next step. Step 3: The DeMix is run on all probes to estimate mu and pi for each probeset.
 
 In the DeMixT, it is designed to finish the whole pipeline of deconvolution in a setting of two or three components. DeMixT.S1 function is designed to estimate the proportions of all mixed samples for each mixture component with or without subsetting gene set. DeMixT.S2 function is designed to estimate the deconvolved expressions of individual mixed tumor samples for unknown component given a subset of genes.
+
+# Installation
+To install this package, start R and firstly install the dependency package:
+\#try http:// if https:// URLs are not supported
+source("https://bioconductor.org/biocLite.R")
+biocLite("DSS")
+Then enter:
+devtools:::install_github("wwylab/DeMix")
