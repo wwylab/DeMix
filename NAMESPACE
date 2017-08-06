@@ -1,3 +1,4 @@
+import(DSS)
 useDynLib(DeMix)
 export(DeMix.Model)
 export(DeMix.Normalization)
