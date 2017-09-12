@@ -59,7 +59,7 @@ DeMixT.Kernel <- function(inputdata, groupid, nhavepi, givenpi, givenpiT, niter,
 	            outcome5<-matrix(rres[[16]], ncol=niter, nrow=intx,byrow=T)
 	            outcome6<-matrix(rres[[17]], ncol=niter, nrow=intx,byrow=T)
 	
-	            print(paste0('Totally ', round(100*sum(outcome4[,niter]>0.99)/wgenes,3),'% genes estimated touch the optimization bound'))
+                #print(paste0('Totally ', round(100*sum(outcome4[,niter]>0.99)/wgenes,3),'% genes estimated touch the optimization bound'))
 			    return(list(pi = outcome1, decovExpr = outcome2, decovMu = outcome3, decovSigma = outcome4, pi1 = outcome5, pi2= outcome6))
 }
 
