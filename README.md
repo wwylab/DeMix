@@ -1,5 +1,7 @@
 # DeMix
 
+# This version is deprecated. Please visit github/wwylab/DeMixT for the latest version and github/wwylab/DeMixTallmaterials for additional data materials.
+
 Deconvolution models for mixed transcriptomes from heterogeneous tumor samples with two or three components using expression data from RNAseq or microarray platforms.
 
 In the DeMixBayes, the deconvolution is designed for a probeset. We focus on the estimation of pi, the purity for the unknown tumor component. The following three steps comprise the selection procedure of this subset.
